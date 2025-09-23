@@ -3,17 +3,17 @@ export default function PastProjects() {
     {
       title: "Passion Projects in Materials Science",
       date: "May 2014",
-      description: "Created the Passion Projects in Materials Science elective for freshmen to pursue a semester-long research project on a topic of their choice."
+      description: "<a href='https://www.youtube.com/watch?v=D164LIo-2jY' target='_blank' rel='noopener noreferrer' className='text-blue-700 hover:text-blue-900 underline font-medium bg-blue-50 px-1 py-0.5 rounded transition-colors'>Created the Passion Projects in Materials Science elective for freshmen to pursue a semester-long research project on a topic of their choice.</a>"
     },
     {
       title: "LINC Conference Speaking",
       date: "June 2013",
-      description: "Spoke at Panel during the MIT LINC (Learning International Networks Consortium) conference, giving a talk entitled 'Inspired Education - A Student's Vision'"
+      description: "<a href='https://news.mit.edu/2013/linc-2013-explores-global-technology-enabled-learning' target='_blank' rel='noopener noreferrer' className='text-blue-700 hover:text-blue-900 underline font-medium bg-blue-50 px-1 py-0.5 rounded transition-colors'>Spoke at Panel during the MIT LINC (Learning International Networks Consortium) conference</a>, giving a talk entitled '<a href='https://linc.mit.edu/linc2013/proceedings/Plenary-Presentations/Shames.pdf' target='_blank' rel='noopener noreferrer' className='text-blue-700 hover:text-blue-900 underline font-medium bg-blue-50 px-1 py-0.5 rounded transition-colors'>Inspired Education - A Student's Vision</a>'"
     },
     {
       title: "Future of Education Columns",
       date: "October 2012",
-      description: "Wrote a series of opinion columns on the future of education for the MIT student newspaper. One of them on problem-based learning caught the attention of the Dean of Digital Learning and led to the chance to join a committee on the future of education."
+      description: "<a href='https://www.thetech.com/authors/sam-shames' target='_blank' rel='noopener noreferrer' className='text-blue-700 hover:text-blue-900 underline font-medium bg-blue-50 px-1 py-0.5 rounded transition-colors'>Wrote a series of opinion columns on the future of education for the MIT student newspaper.</a> One of them on <a href='https://www.thetech.com/2012/12/11/shames-v132-n60' target='_blank' rel='noopener noreferrer' className='text-blue-700 hover:text-blue-900 underline font-medium bg-blue-50 px-1 py-0.5 rounded transition-colors'>problem-based learning</a> caught the attention of the Dean of Digital Learning and led to the chance to join a committee on the future of education."
     }
   ]
 
@@ -21,17 +21,17 @@ export default function PastProjects() {
     {
       title: "Rapid Windshield De-icing Research",
       date: "October 2013",
-      description: "First-author on peer-reviewed research paper on the application of solar thermal fuel molecule for rapid windshield deicing, leading two $750,000 research collaboration with BMW"
+      description: "<a href='https://gg.mit.edu/wp-content/uploads/2016/03/15_RapidWindshield.pdf' target='_blank' rel='noopener noreferrer' className='text-blue-700 hover:text-blue-900 underline font-medium bg-blue-50 px-1 py-0.5 rounded transition-colors'>First-author on peer-reviewed research paper on the application of solar thermal fuel molecule for rapid windshield deicing, leading two $750,000 research collaboration with BMW</a>"
     },
     {
       title: "Trabecular Bone Microstructure Evolution",
       date: "May 2013",
-      description: "MIT senior thesis on the microstructure evolution of trabecular model and the use of genetic algorithms as novel optimization method"
+      description: "<a href='https://dspace.mit.edu/handle/1721.1/89981' target='_blank' rel='noopener noreferrer' className='text-blue-700 hover:text-blue-900 underline font-medium bg-blue-50 px-1 py-0.5 rounded transition-colors'>MIT senior thesis on the microstructure evolution of trabecular model and the use of genetic algorithms as novel optimization method</a>"
     },
     {
       title: "Wolfram Demonstrations",
       date: "April 2012",
-      description: "Programmed and published a series of interactive web apps on materials science and manufacturing using Mathematica for the Wolfram Demonstrations Project."
+      description: "<a href='https://demonstrations.wolfram.com/authors/sam-shames' target='_blank' rel='noopener noreferrer' className='text-blue-700 hover:text-blue-900 underline font-medium bg-blue-50 px-1 py-0.5 rounded transition-colors'>Programmed and published a series of interactive web apps on materials science and manufacturing using Mathematica for the Wolfram Demonstrations Project.</a>"
     }
   ]
 
@@ -39,12 +39,12 @@ export default function PastProjects() {
     {
       title: "Wrestling Stories Website",
       date: "2015 to 2018",
-      description: "After losing in the national finals as a sophomore in 2012, I started writing about the life lessons I learned from wrestling. More than a year later, I finished When Disappoint Inspires. That story grew into Wrestling Stories, a website with more than 40 personal stories from 5 generations of wrestlers celebrating the impact the sport made on their lives."
+      description: "After losing in the national finals as a sophomore in 2012, <a href='https://medium.com/wrestling-stories/the-virtues-of-wrestling-28bb0e14a030' target='_blank' rel='noopener noreferrer' className='text-blue-700 hover:text-blue-900 underline font-medium bg-blue-50 px-1 py-0.5 rounded transition-colors'>I started writing about the life lessons I learned from wrestling.</a> More than a year later, I finished <a href='https://medium.com/wrestling-stories/when-disappointment-inspires-928d0daf4231' target='_blank' rel='noopener noreferrer' className='text-blue-700 hover:text-blue-900 underline font-medium bg-blue-50 px-1 py-0.5 rounded transition-colors'>When Disappoint Inspires.</a> That story grew into <a href='https://wrestlingstories.org/' target='_blank' rel='noopener noreferrer' className='text-blue-700 hover:text-blue-900 underline font-medium bg-blue-50 px-1 py-0.5 rounded transition-colors'>Wrestling Stories</a>, a website with more than 40 personal stories from 5 generations of wrestlers celebrating the impact the sport made on their lives."
     },
     {
       title: "MIT Assistant Coach",
       date: "2014 to 2017",
-      description: "I was a volunteer assistant coach for the MIT wrestling team for three seasons after graduating. I stepped down after Embr Labs raised its Series A financing and I needed to use the time I was coaching on Embr Labs."
+      description: "I was a volunteer assistant coach for the MIT wrestling team for three seasons after graduating. I stepped down after <a href='https://embrlabs.com' target='_blank' rel='noopener noreferrer' className='text-blue-700 hover:text-blue-900 underline font-medium bg-blue-50 px-1 py-0.5 rounded transition-colors'>Embr Labs</a> raised its Series A financing and I needed to use the time I was coaching on Embr Labs."
     }
   ]
 
@@ -55,15 +55,15 @@ export default function PastProjects() {
     },
     {
       title: "Blogging Streak for positive peer pressure",
-      description: "Personal development writing"
+      description: "<a href='https://positivepeerpressure.blog/looking-back-on-my-28-day-blogging-streak-59cc385f0e6' target='_blank' rel='noopener noreferrer' className='text-blue-700 hover:text-blue-900 underline font-medium bg-blue-50 px-1 py-0.5 rounded transition-colors'>Personal development writing</a>"
     },
     {
       title: "Becoming more conscious of consciousness",
-      description: "Philosophical exploration"
+      description: "<a href='https://positivepeerpressure.blog/becoming-more-conscious-of-consciousness-fc7bbe93b6ab' target='_blank' rel='noopener noreferrer' className='text-blue-700 hover:text-blue-900 underline font-medium bg-blue-50 px-1 py-0.5 rounded transition-colors'>Philosophical exploration</a>"
     },
     {
       title: "Why study philosophy",
-      description: "Educational essay"
+      description: "<a href='https://positivepeerpressure.blog/why-study-philosophy-in-the-age-of-stem-b176d19e0b66' target='_blank' rel='noopener noreferrer' className='text-blue-700 hover:text-blue-900 underline font-medium bg-blue-50 px-1 py-0.5 rounded transition-colors'>Educational essay</a>"
     },
     {
       title: "Nature's Legos",
@@ -95,9 +95,7 @@ export default function PastProjects() {
                   <h4 className="text-lg font-semibold text-gray-900 mb-3">
                     {project.title}
                   </h4>
-                  <p className="text-gray-700 text-sm leading-relaxed">
-                    {project.description}
-                  </p>
+                  <p className="text-gray-700 text-sm leading-relaxed" dangerouslySetInnerHTML={{ __html: project.description }}></p>
                 </div>
               ))}
             </div>
@@ -119,9 +117,7 @@ export default function PastProjects() {
                   <h4 className="text-lg font-semibold text-gray-900 mb-3">
                     {project.title}
                   </h4>
-                  <p className="text-gray-700 text-sm leading-relaxed">
-                    {project.description}
-                  </p>
+                  <p className="text-gray-700 text-sm leading-relaxed" dangerouslySetInnerHTML={{ __html: project.description }}></p>
                 </div>
               ))}
             </div>
@@ -143,9 +139,7 @@ export default function PastProjects() {
                   <h4 className="text-lg font-semibold text-gray-900 mb-3">
                     {project.title}
                   </h4>
-                  <p className="text-gray-700 text-sm leading-relaxed">
-                    {project.description}
-                  </p>
+                  <p className="text-gray-700 text-sm leading-relaxed" dangerouslySetInnerHTML={{ __html: project.description }}></p>
                 </div>
               ))}
             </div>
@@ -159,9 +153,7 @@ export default function PastProjects() {
                   <h4 className="text-md font-semibold text-gray-900 mb-2">
                     {piece.title}
                   </h4>
-                  <p className="text-gray-600 text-sm">
-                    {piece.description}
-                  </p>
+                  <p className="text-gray-600 text-sm" dangerouslySetInnerHTML={{ __html: piece.description }}></p>
                 </div>
               ))}
             </div>

@@ -9,7 +9,6 @@ export default function Navigation() {
     { name: 'Professional Bio', href: '#professional-bio' },
     { name: 'Timeline', href: '#timeline' },
     { name: 'Past Projects', href: '#past-projects' },
-    { name: 'Blog', href: '#blog' },
     { name: 'Fun Facts', href: '#fun-facts' },
     { name: 'Contact Me', href: '#contact' },
   ]
