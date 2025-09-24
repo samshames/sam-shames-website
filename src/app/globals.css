@@ -12,6 +12,18 @@
   --font-mono: var(--font-geist-mono);
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
+details summary::-webkit-details-marker {
+  display: none;
+}
+
+details summary::marker {
+  content: '';
+}
+
 @media (prefers-color-scheme: dark) {
   :root {
     --background: #0a0a0a;

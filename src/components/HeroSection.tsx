@@ -11,19 +11,28 @@ export default function HeroSection() {
             </h1>
 
             <div className="space-y-6 text-lg text-gray-700 leading-relaxed">
-              <p>
-                I&apos;m an MIT-trained engineer, entrepreneur, and angel investor living in Boston.
-                Over more than a decade growing Embr Labs from MIT prototyping competition to $50M
-                in revenue and 225,000 units sold, I&apos;ve developed expertise in building and
-                commercializing new technologies.
-              </p>
+              <p>I&apos;m an engineer, entrepreneur, and angel investor living in Boston.</p>
 
               <p>
-                I&apos;ve been an aspiring Renaissance Man since learning the term in the 9th grade.
-                I&apos;m a musician–cellist since second grade and lover of karaoke–an athlete–national
-                champion wrestler in college and just broke 90 in golf–and a life-long learner.
-                I&apos;m interested in science and the arts, startups and sports, technology and
-                teaching, philosophy and food, and almost everything in between.
+                I&apos;m also a{' '}
+                <a href="#wrestling-projects" className="text-blue-600 hover:text-blue-800 underline">
+                  <strong>(former) athlete</strong>
+                </a>
+                &mdash;national champion wrestler in college and now just broke 90 in golf,{' '}
+                <a href="#timeline-cello" className="text-blue-600 hover:text-blue-800 underline">
+                  <strong>a musician</strong>
+                </a>
+                &mdash;cellist since the second grade and a karaoke lover,{' '}
+                <a href="#professional-bio" className="text-blue-600 hover:text-blue-800 underline">
+                  <strong>an inventor</strong>
+                </a>
+                &mdash;four granted patents to date, and{' '}
+                <a href="#education-projects" className="text-blue-600 hover:text-blue-800 underline">
+                  <strong>an educator</strong>
+                </a>
+                &mdash;TA for multiple classes at MIT and lifelong learner. I&apos;m interested in science
+                and the arts, startups and sports, technology and teaching, philosophy and food, and
+                almost everything in between. I am an aspiring Renaissance Man.
               </p>
 
               <p>
@@ -34,15 +43,20 @@ export default function HeroSection() {
           </div>
 
           <div className="flex justify-center">
-            <div className="w-80 h-80 relative rounded-full overflow-hidden shadow-2xl">
-              <Image
-                src="/sam-photo.jpg"
-                alt="Sam Shames"
-                fill
-                className="object-cover"
-                priority
-              />
-            </div>
+            <figure className="flex flex-col items-center">
+              <div className="w-80 h-80 relative rounded-full overflow-hidden shadow-2xl">
+                <Image
+                  src="/Website%20photo.PNG"
+                  alt="Sam Shames speaking at an event"
+                  fill
+                  className="object-cover object-[90%_center] scale-110"
+                  priority
+                />
+              </div>
+              <figcaption className="mt-4 text-sm text-gray-500 text-center">
+                Speaking at a November 2024 Hardware Boston Meet Up.
+              </figcaption>
+            </figure>
           </div>
         </div>
 

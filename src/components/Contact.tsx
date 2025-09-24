@@ -26,7 +26,7 @@ export default function Contact() {
   }
 
   return (
-    <section id="contact" className="py-20 bg-white">
+    <section id="contact" className="py-20 bg-white scroll-mt-24">
       <div className="max-w-4xl mx-auto px-6">
         <h2 className="text-4xl font-bold text-gray-900 mb-12 text-center">
           Contact Me
@@ -90,7 +90,9 @@ export default function Contact() {
               </h4>
               <div className="flex space-x-4">
                 <a
-                  href="#"
+                  href="https://linkedin.com/in/samshames"
+                  target="_blank"
+                  rel="noopener noreferrer"
                   className="w-10 h-10 bg-blue-600 text-white rounded-full flex items-center justify-center hover:bg-blue-700 transition-colors"
                   aria-label="LinkedIn"
                 >
@@ -99,7 +101,9 @@ export default function Contact() {
                   </svg>
                 </a>
                 <a
-                  href="#"
+                  href="https://twitter.com/samshames"
+                  target="_blank"
+                  rel="noopener noreferrer"
                   className="w-10 h-10 bg-gray-800 text-white rounded-full flex items-center justify-center hover:bg-gray-900 transition-colors"
                   aria-label="Twitter"
                 >

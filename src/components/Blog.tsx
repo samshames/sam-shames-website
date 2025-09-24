@@ -27,7 +27,9 @@ export default function Blog() {
                   Read my latest thoughts and insights on Substack
                 </p>
                 <a
-                  href="#"
+                  href="https://samshames.substack.com"
+                  target="_blank"
+                  rel="noopener noreferrer"
                   className="inline-block bg-orange-500 text-white px-6 py-3 rounded-lg font-semibold hover:bg-orange-600 transition-colors"
                 >
                   Visit Substack →
@@ -49,7 +51,9 @@ export default function Blog() {
                   Previous writings from my time at MIT
                 </p>
                 <a
-                  href="#"
+                  href="https://www.thetech.com/authors/sam-shames"
+                  target="_blank"
+                  rel="noopener noreferrer"
                   className="inline-block bg-blue-500 text-white px-6 py-3 rounded-lg font-semibold hover:bg-blue-600 transition-colors"
                 >
                   Read Articles →
@@ -71,7 +75,9 @@ export default function Blog() {
                   Essays and reflections on entrepreneurship and life
                 </p>
                 <a
-                  href="#"
+                  href="https://medium.com/@sam_shames"
+                  target="_blank"
+                  rel="noopener noreferrer"
                   className="inline-block bg-green-500 text-white px-6 py-3 rounded-lg font-semibold hover:bg-green-600 transition-colors"
                 >
                   View Medium →
