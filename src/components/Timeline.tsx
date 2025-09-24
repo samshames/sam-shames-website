@@ -1,4 +1,10 @@
+'use client'
+
+import { useState } from "react";
+
 export default function Timeline() {
+  const [showAll, setShowAll] = useState(false);
+
   const timelineEvents: {
     date: string;
     title: string;
@@ -27,7 +33,7 @@ export default function Timeline() {
       date: "March 2021",
       title: "Embr Wave 2 Launch",
       description:
-        "<a href='https://ifdesign.com/en/winner-ranking/project/embr-wave-2/314867' target='_blank' rel='noopener noreferrer' className='text-blue-600 hover:text-blue-800 underline'>Embr Wave 2 successfully launches and wins an iF Design award.</a> It was a 21 month process navigating all the supply chain disruptions from Covid to bring it to market.",
+        "<a href='https://ifdesign.com/en/winner-ranking/project/embr-wave-2/314867' target='_blank' rel='noopener noreferrer' className='text-blue-600 hover:text-blue-800 underline'>Embr Wave 2 successfully launches and wins an iF Design award.</a> It was a 21-month process navigating all the supply chain disruptions from Covid to bring it to market.",
     },
     {
       date: "October 2019",
@@ -39,7 +45,7 @@ export default function Timeline() {
       date: "July 2019",
       title: "Most Expensivest with 2Chainz",
       description:
-        "<a href='https://www.imdb.com/title/tt8911118/' target='_blank' rel='noopener noreferrer' className='text-blue-600 hover:text-blue-800 underline'>I met 2Chainz while showcasing Embr Wave on the season 3 episode 4 of Most Expensivest about the future.</a> They gave me the villain edit and made it seem like I wasn't supportive of 2Chainz mom's hot flashes.",
+        "<a href='https://www.imdb.com/title/tt8911118/' target='_blank' rel='noopener noreferrer' className='text-blue-600 hover:text-blue-800 underline'>I met 2Chainz while showcasing Embr Wave on the season 3 episode 4 of Most Expensivest about the future.</a> They gave me the villain edit and made it seem like I wasn't supportive of 2Chainz's mom's hot flashes.",
     },
     {
       date: "November 2018",
@@ -82,7 +88,7 @@ export default function Timeline() {
       date: "March 2013",
       title: "NCWA National Wrestling Championship",
       description:
-        "<a href='https://www.thetech.com/2013/04/19/wrestling-v133-n19' target='_blank' rel='noopener noreferrer' className='text-blue-600 hover:text-blue-800 underline'>Won an NCWA national wrestling title, capping off a 31-0 season, and leading our team to a National Champion</a>",
+        "<a href='https://www.thetech.com/2013/04/19/wrestling-v133-n19' target='_blank' rel='noopener noreferrer' className='text-blue-600 hover:text-blue-800 underline'>Won an NCWA national wrestling title, capping off a 31-0 season, and leading our team to a national championship.</a>",
     },
     {
       date: "May 2012",
@@ -94,7 +100,7 @@ export default function Timeline() {
       date: "May 2010",
       title: "Biodiesel Processor Project",
       description:
-        "<a href='https://www.youtube.com/watch?v=5cwrX6MxEnw' target='_blank' rel='noopener noreferrer' className='text-blue-600 hover:text-blue-800 underline'>Built a biodiesel processor to convert waste fry oil from my high school cafeteria into useable fuel</a>",
+        "<a href='https://www.youtube.com/watch?v=5cwrX6MxEnw' target='_blank' rel='noopener noreferrer' className='text-blue-600 hover:text-blue-800 underline'>Built a biodiesel processor to convert waste fry oil from my high school cafeteria into usable fuel</a>",
     },
     {
       date: "March 2010",
@@ -129,10 +135,12 @@ export default function Timeline() {
     },
     {
       date: "November 1992",
-      title: "My timeline begins",
-      description: "The beginning of my journey",
+      title: "My Timeline Begins",
+      description: "I was born on a Tuesday...",
     },
   ];
+
+  const visibleEvents = showAll ? timelineEvents : timelineEvents.slice(0, 3);
 
   return (
     <section id="timeline" className="py-20 bg-white scroll-mt-24">
@@ -150,7 +158,7 @@ export default function Timeline() {
           <div className="absolute left-8 top-0 bottom-0 w-0.5 bg-gray-300"></div>
 
           <div className="space-y-12">
-            {timelineEvents.map((event, index) => (
+            {visibleEvents.map((event, index) => (
               <div
                 key={index}
                 id={event.id ? event.id : undefined}
@@ -177,6 +185,28 @@ export default function Timeline() {
               </div>
             ))}
           </div>
+
+          {timelineEvents.length > 3 && (
+            <div className="mt-10 text-center">
+              <button
+                type="button"
+                onClick={() => setShowAll((prev) => !prev)}
+                className="inline-flex items-center text-sm font-semibold text-blue-600 hover:text-blue-800 transition-colors"
+                aria-expanded={showAll}
+              >
+                <span>{showAll ? "Show fewer events" : "Show full timeline"}</span>
+                <svg
+                  className={`w-4 h-4 ml-2 transition-transform ${showAll ? "rotate-180" : ""}`}
+                  fill="none"
+                  stroke="currentColor"
+                  viewBox="0 0 24 24"
+                  aria-hidden="true"
+                >
+                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M19 9l-7 7-7-7" />
+                </svg>
+              </button>
+            </div>
+          )}
         </div>
       </div>
     </section>

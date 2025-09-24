@@ -7,10 +7,10 @@ export default function PastProjects() {
         "<a href='https://www.youtube.com/watch?v=D164LIo-2jY' target='_blank' rel='noopener noreferrer' class='text-blue-700 hover:text-blue-900 underline font-medium bg-blue-50 px-1 py-0.5 rounded transition-colors'>Created the Passion Projects in Materials Science elective for freshmen to pursue a semester-long research project on a topic of their choice.</a>",
     },
     {
-      title: "LINC Conference Speaking",
+      title: "MIT LINC Conference Speaking",
       date: "June 2013",
       description:
-        "<a href='https://news.mit.edu/2013/linc-2013-explores-global-technology-enabled-learning' target='_blank' rel='noopener noreferrer' class='text-blue-700 hover:text-blue-900 underline font-medium bg-blue-50 px-1 py-0.5 rounded transition-colors'>Spoke at Panel during the MIT LINC (Learning International Networks Consortium) conference</a>, giving a talk entitled '<a href='https://linc.mit.edu/linc2013/proceedings/Plenary-Presentations/Shames.pdf' target='_blank' rel='noopener noreferrer' class='text-blue-700 hover:text-blue-900 underline font-medium bg-blue-50 px-1 py-0.5 rounded transition-colors'>Inspired Education - A Student's Vision</a>'",
+        "<a href='https://news.mit.edu/2013/linc-2013-explores-global-technology-enabled-learning' target='_blank' rel='noopener noreferrer' class='text-blue-700 hover:text-blue-900 underline font-medium bg-blue-50 px-1 py-0.5 rounded transition-colors'>Spoke on a panel during the MIT LINC (Learning International Networks Consortium) conference</a>, giving a talk entitled '<a href='https://linc.mit.edu/linc2013/proceedings/Plenary-Presentations/Shames.pdf' target='_blank' rel='noopener noreferrer' class='text-blue-700 hover:text-blue-900 underline font-medium bg-blue-50 px-1 py-0.5 rounded transition-colors'>Inspired Education - A Student's Vision</a>'",
     },
     {
       title: "Future of Education Columns",
@@ -25,13 +25,13 @@ export default function PastProjects() {
       title: "Rapid Windshield De-icing Research",
       date: "October 2013",
       description:
-        "<a href='https://gg.mit.edu/wp-content/uploads/2016/03/15_RapidWindshield.pdf' target='_blank' rel='noopener noreferrer' class='text-blue-700 hover:text-blue-900 underline font-medium bg-blue-50 px-1 py-0.5 rounded transition-colors'>First-author on peer-reviewed research paper on the application of solar thermal fuel molecule for rapid windshield deicing, leading two $750,000 research collaboration with BMW</a>",
+        "<a href='https://gg.mit.edu/wp-content/uploads/2016/03/15_RapidWindshield.pdf' target='_blank' rel='noopener noreferrer' class='text-blue-700 hover:text-blue-900 underline font-medium bg-blue-50 px-1 py-0.5 rounded transition-colors'>First-author on peer-reviewed research paper on the application of solar thermal fuel molecule for rapid windshield deicing, leading to a $750,000 research collaboration with BMW</a>",
     },
     {
       title: "Trabecular Bone Microstructure Evolution",
       date: "May 2013",
       description:
-        "<a href='https://dspace.mit.edu/handle/1721.1/89981' target='_blank' rel='noopener noreferrer' class='text-blue-700 hover:text-blue-900 underline font-medium bg-blue-50 px-1 py-0.5 rounded transition-colors'>MIT senior thesis on the microstructure evolution of trabecular model and the use of genetic algorithms as novel optimization method</a>",
+        "<a href='https://dspace.mit.edu/handle/1721.1/89981' target='_blank' rel='noopener noreferrer' class='text-blue-700 hover:text-blue-900 underline font-medium bg-blue-50 px-1 py-0.5 rounded transition-colors'>MIT senior thesis on the microstructure evolution of trabecular bone and the use of genetic algorithms as a novel optimization method</a>",
     },
     {
       title: "Wolfram Demonstrations",
@@ -43,44 +43,44 @@ export default function PastProjects() {
 
   const wrestlingProjects = [
     {
-      title: "Wrestling Stories Website",
-      date: "2015 to 2018",
-      description:
-        "After losing in the national finals as a sophomore in 2012, <a href='https://medium.com/wrestling-stories/the-virtues-of-wrestling-28bb0e14a030' target='_blank' rel='noopener noreferrer' class='text-blue-700 hover:text-blue-900 underline font-medium bg-blue-50 px-1 py-0.5 rounded transition-colors'>I started writing about the life lessons I learned from wrestling.</a> More than a year later, I finished <a href='https://medium.com/wrestling-stories/when-disappointment-inspires-928d0daf4231' target='_blank' rel='noopener noreferrer' class='text-blue-700 hover:text-blue-900 underline font-medium bg-blue-50 px-1 py-0.5 rounded transition-colors'>When Disappoint Inspires.</a> That story grew into <a href='https://wrestlingstories.org/' target='_blank' rel='noopener noreferrer' class='text-blue-700 hover:text-blue-900 underline font-medium bg-blue-50 px-1 py-0.5 rounded transition-colors'>Wrestling Stories</a>, a website with more than 40 personal stories from 5 generations of wrestlers celebrating the impact the sport made on their lives.",
-    },
-    {
       title: "MIT Assistant Coach",
       date: "2014 to 2017",
       description:
         "I was a volunteer assistant coach for the MIT wrestling team for three seasons after graduating. I stepped down after <a href='https://embrlabs.com' target='_blank' rel='noopener noreferrer' class='text-blue-700 hover:text-blue-900 underline font-medium bg-blue-50 px-1 py-0.5 rounded transition-colors'>Embr Labs</a> raised its Series A financing and I needed to use the time I was coaching on Embr Labs.",
     },
+    {
+      title: "Wrestling Stories Website",
+      date: "2015 to 2018",
+      description:
+        "After losing in the national finals as a sophomore in 2012, <a href='https://medium.com/wrestling-stories/the-virtues-of-wrestling-28bb0e14a030' target='_blank' rel='noopener noreferrer' class='text-blue-700 hover:text-blue-900 underline font-medium bg-blue-50 px-1 py-0.5 rounded transition-colors'>I started writing about the life lessons I learned from wrestling.</a> More than a year later, I finished <a href='https://medium.com/wrestling-stories/when-disappointment-inspires-928d0daf4231' target='_blank' rel='noopener noreferrer' class='text-blue-700 hover:text-blue-900 underline font-medium bg-blue-50 px-1 py-0.5 rounded transition-colors'>When Disappointment Inspires.</a> That story grew into <a href='https://wrestlingstories.org/' target='_blank' rel='noopener noreferrer' class='text-blue-700 hover:text-blue-900 underline font-medium bg-blue-50 px-1 py-0.5 rounded transition-colors'>Wrestling Stories</a>, a website with more than 40 personal stories from 5 generations of wrestlers celebrating the impact the sport made on their lives.",
+    },
   ];
 
   const creativeWriting = [
     {
-      title: "Fiesta",
+      title: "Fiesta (2012)",
       description:
-        "<a href='/FiestaFinalDraft.pdf' target='_blank' rel='noopener noreferrer' class='text-blue-700 hover:text-blue-900 underline font-medium bg-blue-50 px-1 py-0.5 rounded transition-colors'>Creative essay (PDF)</a>",
+        "<a href='/FiestaFinalDraft.pdf' target='_blank' rel='noopener noreferrer' class='text-blue-700 hover:text-blue-900 underline font-medium bg-blue-50 px-1 py-0.5 rounded transition-colors'>Creative essay I wrote after going to the running of the bulls in Pampola while living in Spain. Inspired by Earnest Hemingway of course.</a>",
     },
     {
-      title: "Blogging Streak for positive peer pressure",
+      title: "Positive Peer Pressure Blog (2015-16)",
       description:
-        "<a href='https://positivepeerpressure.blog/looking-back-on-my-28-day-blogging-streak-59cc385f0e6' target='_blank' rel='noopener noreferrer' class='text-blue-700 hover:text-blue-900 underline font-medium bg-blue-50 px-1 py-0.5 rounded transition-colors'>Personal development writing</a>",
+        "<a href='https://positivepeerpressure.blog/looking-back-on-my-28-day-blogging-streak-59cc385f0e6' target='_blank' rel='noopener noreferrer' class='text-blue-700 hover:text-blue-900 underline font-medium bg-blue-50 px-1 py-0.5 rounded transition-colors'>A close friend and I started a blog to encourage each other to write more. It cumulinated in a 30 day writing challenge in December 2016.</a>",
     },
     {
-      title: "Becoming more conscious of consciousness",
+      title: "Philosophy and Neuroscience of Consciouness (2016)",
       description:
-        "<a href='https://positivepeerpressure.blog/becoming-more-conscious-of-consciousness-fc7bbe93b6ab' target='_blank' rel='noopener noreferrer' class='text-blue-700 hover:text-blue-900 underline font-medium bg-blue-50 px-1 py-0.5 rounded transition-colors'>Philosophical exploration</a>",
+        "<a href='https://positivepeerpressure.blog/becoming-more-conscious-of-consciousness-fc7bbe93b6ab' target='_blank' rel='noopener noreferrer' class='text-blue-700 hover:text-blue-900 underline font-medium bg-blue-50 px-1 py-0.5 rounded transition-colors'>Thinking about the magic that is the human brain.</a>",
     },
     {
-      title: "Why study philosophy",
+      title: "Why study philosophy (2016)",
       description:
-        "<a href='https://positivepeerpressure.blog/why-study-philosophy-in-the-age-of-stem-b176d19e0b66' target='_blank' rel='noopener noreferrer' class='text-blue-700 hover:text-blue-900 underline font-medium bg-blue-50 px-1 py-0.5 rounded transition-colors'>Educational essay</a>",
+        "<a href='https://positivepeerpressure.blog/why-study-philosophy-in-the-age-of-stem-b176d19e0b66' target='_blank' rel='noopener noreferrer' class='text-blue-700 hover:text-blue-900 underline font-medium bg-blue-50 px-1 py-0.5 rounded transition-colors'>The importance of philosophy in the age of high tech. Arguably even more impportant now with AI.</a>",
     },
     {
-      title: "Nature's Legos",
+      title: "Nature's Legos (2012)",
       description:
-        "<a href='/Inside%20Nature%27s%20Toolbox.pdf' target='_blank' rel='noopener noreferrer' class='text-blue-700 hover:text-blue-900 underline font-medium bg-blue-50 px-1 py-0.5 rounded transition-colors'>Science writing (PDF)</a>",
+        "<a href='/Inside%20Nature%27s%20Toolbox.pdf' target='_blank' rel='noopener noreferrer' class='text-blue-700 hover:text-blue-900 underline font-medium bg-blue-50 px-1 py-0.5 rounded transition-colors'>Science writing for an MIT class that was later awarded a writing prize.</a>",
     },
   ];
 
@@ -126,7 +126,7 @@ export default function PastProjects() {
             </div>
           </div>
 
-          <div>
+          <div id="materials-projects" className="scroll-mt-28">
             <h3 className="text-2xl font-bold text-gray-900 mb-8">
               Materials Science
             </h3>

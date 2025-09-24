@@ -16,17 +16,17 @@ export default function FunFacts() {
           </a>{" "}
           in the movie Ted after playing basketball with Mark Wahlberg at MIT.
           My game was terrible but my hustle impressed him enough to invite me
-          to participate in the movie. .
+          to participate in the movie.
         </>
       ),
     },
     {
       icon: "🤸",
-      title: "Wall Running & Backflips",
+      title: "Off the Wall Backflips",
       description: (
         <>
-          I learned how to run up a wall and do a backflip in college. I can not
-          do this anymore, but here's the{" "}
+          I learned how to run up a wall and do a backflip in college. I cannot
+          do this anymore, but here&apos;s the{" "}
           <a
             href="https://www.youtube.com/watch?v=zalmpuxD14M"
             className="text-blue-600 hover:text-blue-800 underline"
@@ -44,7 +44,7 @@ export default function FunFacts() {
       title: "Marathon Runner",
       description: (
         <>
-          I've run 6 marathons: the Boston Marathon from 2012 through 2016,
+          I&apos;ve run 6 marathons: the Boston Marathon from 2012 through 2016,
           including 2013 the year of the Boston Marathon bombing, 2014 as part
           of the{" "}
           <a
@@ -70,25 +70,25 @@ export default function FunFacts() {
       icon: "🚪",
       title: "Door Holder for UK Prime Minister",
       description:
-        "I held the door open for former UK Prime Minister David Cameron when he visited MIT",
+        "I held the door open for former UK Prime Minister David Cameron when he visited MIT.",
     },
     {
       icon: "👑",
       title: "Queen of Denmark",
       description:
-        "I met the now Queen of Denmark and was featured live on Danish TV in 2015 when Embr was a finalist of the Index Design to Improve Life Awards",
+        "I met the now Queen of Denmark and was featured live on Danish TV in 2015 when Embr was a finalist of the Index Design to Improve Life Awards.",
     },
     {
       icon: "📺",
       title: "First Man on QVC UK Menopause Show",
       description:
-        "I was the first man to appear on QVC UK's Menopause Your Way show in 2023",
+        "I was the first man to appear on QVC UK's Menopause Your Way show in 2023.",
     },
     {
       icon: "🐒",
       title: "Baboon Karma",
       description:
-        "A baboon pooped in my backpack while on Safari in South Africa after I had made fun of my brother and sister-in-law for not locking their door properly. True karma",
+        "A baboon pooped in my backpack while on Safari in South Africa after I had made fun of my brother and sister-in-law for not locking their door properly. True karma.",
     },
   ];
 
@@ -103,7 +103,7 @@ export default function FunFacts() {
         </h2>
 
         <p className="text-xl text-gray-600 mb-16 text-center">
-          Too weird for LinkedIn but wanted to 😉
+          Too weird for LinkedIn but worth sharing 😉
         </p>
 
         <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
