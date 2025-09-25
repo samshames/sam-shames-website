@@ -34,7 +34,7 @@ export default function HeroSection() {
                 >
                   <strong>a musician</strong>
                 </a>
-                &mdash;cellist since the second grade and a karaoke lover,{" "}
+                &mdash;cellist since the second grade,{" "}
                 <a
                   href="#professional-bio"
                   className="text-blue-600 hover:text-blue-800 underline"
