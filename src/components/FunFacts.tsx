@@ -22,7 +22,7 @@ export default function FunFacts() {
     },
     {
       icon: "🤸",
-      title: "Off the Wall Backflips",
+      title: "Backflip Off the Wall",
       description: (
         <>
           I learned how to run up a wall and do a backflip in college. I cannot
@@ -61,18 +61,6 @@ export default function FunFacts() {
       ),
     },
     {
-      icon: "⚾",
-      title: "Fenway Park Brick Owner",
-      description:
-        "My high school friends and I bought a brick in Fenway Park as part of the 100th anniversary sale.",
-    },
-    {
-      icon: "🚪",
-      title: "Door Holder for UK Prime Minister",
-      description:
-        "I held the door open for former UK Prime Minister David Cameron when he visited MIT.",
-    },
-    {
       icon: "👑",
       title: "Queen of Denmark",
       description:
@@ -85,10 +73,60 @@ export default function FunFacts() {
         "I was the first man to appear on QVC UK's Menopause Your Way show in 2023.",
     },
     {
-      icon: "🐒",
-      title: "Baboon Karma",
-      description:
-        "A baboon pooped in my backpack while on Safari in South Africa after I had made fun of my brother and sister-in-law for not locking their door properly. True karma.",
+      icon: "🎤",
+      title: "Most Expensivest with 2Chainz",
+      description: (
+        <>
+          I met 2Chainz while showcasing Embr Wave on season 3, episode 4 of{" "}
+          <a
+            href="https://www.imdb.com/title/tt8911118/"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="text-blue-600 hover:text-blue-800 underline"
+          >
+            Most Expensivest
+          </a>
+          . They gave me the villain edit and made it seem like I wasn&apos;t
+          supportive of 2Chainz&apos;s mom&apos;s hot flashes.
+        </>
+      ),
+    },
+    {
+      icon: "🛢️",
+      title: "Biodiesel Processor Project",
+      description: (
+        <>
+          <a
+            href="https://www.youtube.com/watch?v=5cwrX6MxEnw"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="text-blue-600 hover:text-blue-800 underline"
+          >
+            Built a biodiesel processor
+          </a>{" "}
+          to convert waste fry oil from my high school cafeteria into usable
+          fuel for a senior year project.
+        </>
+      ),
+    },
+    {
+      anchor: "cello-fun-fact",
+      icon: "🎻",
+      title: "Cellist",
+      description: (
+        <>
+          <a
+            href="https://medium.com/positive-peer-pressure/my-cello-story-cb2d049c2f10"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="text-blue-600 hover:text-blue-800 underline"
+          >
+            I&apos;ve played the cello since second grade
+          </a>
+          . Although I stopped taking lessons after 11 years when I graduated
+          high school, I still enjoy playing now and then.
+        </>
+      ),
     },
   ];
 
@@ -103,14 +141,17 @@ export default function FunFacts() {
         </h2>
 
         <p className="text-xl text-gray-600 mb-16 text-center">
-          Too weird for LinkedIn but worth sharing 😉
+          A bit more about me...
         </p>
 
         <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
           {funFacts.map((fact, index) => (
             <div
               key={index}
-              className="bg-white p-6 rounded-xl shadow-sm border border-gray-200 hover:shadow-lg transition-all duration-300 hover:-translate-y-1"
+              id={fact.anchor || undefined}
+              className={`bg-white p-6 rounded-xl shadow-sm border border-gray-200 hover:shadow-lg transition-all duration-300 hover:-translate-y-1${
+                fact.anchor ? " scroll-mt-24" : ""
+              }`}
             >
               <div className="text-4xl mb-4 text-center">{fact.icon}</div>
 

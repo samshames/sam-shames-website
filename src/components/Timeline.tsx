@@ -1,4 +1,4 @@
-'use client'
+"use client";
 
 import { useState } from "react";
 
@@ -12,22 +12,10 @@ export default function Timeline() {
     id?: string;
   }[] = [
     {
-      date: "February 2025",
-      title: "Embr Wave wins an Oprah Menopause O-Ward",
-      description:
-        "<a href='https://www.oprahdaily.com/life/health/a63494760/oprah-menopause-awards-2025/' target='_blank' rel='noopener noreferrer' className='text-blue-600 hover:text-blue-800 underline'>Embr Wave wins an Oprah Menopause O-Ward for providing relief from Hot Flashes.</a>",
-    },
-    {
       date: "January 2024",
       title: "CBS Innovation Nation Follow-up",
       description:
         "<a href='https://www.youtube.com/watch?v=AoPI2jsS25c' target='_blank' rel='noopener noreferrer' className='text-blue-600 hover:text-blue-800 underline'>CBS's Innovation Nation caught up 10 years later to see how far Embr has come since their 2015 story.</a>",
-    },
-    {
-      date: "December 2022",
-      title: "CB Insights Digital Health 150",
-      description:
-        "<a href='https://www.cbinsights.com/research/report/digital-health-startups-redefining-healthcare-2022/' target='_blank' rel='noopener noreferrer' className='text-blue-600 hover:text-blue-800 underline'>Embr is named to CB Insights' Digital Health 150 list of most promising digital health companies of 2022.</a>",
     },
     {
       date: "March 2021",
@@ -41,12 +29,7 @@ export default function Timeline() {
       description:
         "<a href='https://www.youtube.com/watch?v=d2FhmQdjtuU' target='_blank' rel='noopener noreferrer' className='text-blue-600 hover:text-blue-800 underline'>I pitched Embr Wave live on Good Morning America to Daymond John and the CEO of AARP and won the Innovator in Aging Award for the company.</a>",
     },
-    {
-      date: "July 2019",
-      title: "Most Expensivest with 2Chainz",
-      description:
-        "<a href='https://www.imdb.com/title/tt8911118/' target='_blank' rel='noopener noreferrer' className='text-blue-600 hover:text-blue-800 underline'>I met 2Chainz while showcasing Embr Wave on the season 3 episode 4 of Most Expensivest about the future.</a> They gave me the villain edit and made it seem like I wasn't supportive of 2Chainz's mom's hot flashes.",
-    },
+
     {
       date: "November 2018",
       title: "MIT Wulff Lecture",
@@ -84,60 +67,6 @@ export default function Timeline() {
         "<a href='https://www.wired.com/2013/10/an-ingenious-wristband-that-keeps-your-body-at-the-perfect-temperature-no-ac-required/' target='_blank' rel='noopener noreferrer' className='text-blue-600 hover:text-blue-800 underline'>Wired picked up the story about our prototype heating and cooling wristband that won the MIT MADMEC competition.</a> We thought the value was helping buildings save energy.",
       id: "timeline-madmec",
     },
-    {
-      date: "March 2013",
-      title: "NCWA National Wrestling Championship",
-      description:
-        "<a href='https://www.thetech.com/2013/04/19/wrestling-v133-n19' target='_blank' rel='noopener noreferrer' className='text-blue-600 hover:text-blue-800 underline'>Won an NCWA national wrestling title, capping off a 31-0 season, and leading our team to a national championship.</a>",
-    },
-    {
-      date: "May 2012",
-      title: "Madrid Research Experience",
-      description:
-        "Lived in Madrid, Spain for 3 months while doing research at a national lab as part of an MIT program. It was my first time living abroad and a powerful exposure to alternative cultures.",
-    },
-    {
-      date: "May 2010",
-      title: "Biodiesel Processor Project",
-      description:
-        "<a href='https://www.youtube.com/watch?v=5cwrX6MxEnw' target='_blank' rel='noopener noreferrer' className='text-blue-600 hover:text-blue-800 underline'>Built a biodiesel processor to convert waste fry oil from my high school cafeteria into usable fuel</a>",
-    },
-    {
-      date: "March 2010",
-      title: "New England Wrestling Championship",
-      description:
-        "Won the New England wrestling title at 112lbs after having fallen short my sophomore and junior year. I realized I wasn't ready to give up wrestling and decided to wrestle at MIT.",
-    },
-    {
-      date: "November 2006",
-      title: "Started High School Wrestling",
-      description:
-        "Joined the high school wrestling team as an insecure 88lbs freshman. Lost repeatedly but fell in love with the sport and set the goal to become the first New England Champion in my school's history.",
-    },
-    {
-      date: "July 2004",
-      title: "First International Trip",
-      description:
-        "Visited France with my family as part of a house exchange. It was my first time leaving the country and ignited a love of travel.",
-    },
-    {
-      date: "March 2003",
-      title: "Les Miserables Musical",
-      description:
-        "I was cast as a member of Gavroche’s gang in the local high school production of Les Miserables. I memorized the entire album and ignited a love of musical theatre.",
-    },
-    {
-      date: "October 1998",
-      title: "Started Cello Lessons",
-      description:
-        "Began taking cello lessons and would continue through 2010. I would eventually play in a few local orchestras and a chamber group at NEC.",
-      id: "timeline-cello",
-    },
-    {
-      date: "November 1992",
-      title: "My Timeline Begins",
-      description: "I was born on a Tuesday...",
-    },
   ];
 
   const visibleEvents = showAll ? timelineEvents : timelineEvents.slice(0, 3);
@@ -150,8 +79,8 @@ export default function Timeline() {
         </h2>
 
         <p className="text-xl text-gray-600 mb-16 text-center">
-          Here are some of the key events that have shaped my personal and
-          professional journey.
+          Here are some of the key events that have shaped my professional
+          journey to date.
         </p>
 
         <div className="relative">
@@ -194,15 +123,24 @@ export default function Timeline() {
                 className="inline-flex items-center text-sm font-semibold text-blue-600 hover:text-blue-800 transition-colors"
                 aria-expanded={showAll}
               >
-                <span>{showAll ? "Show fewer events" : "Show full timeline"}</span>
+                <span>
+                  {showAll ? "Show fewer events" : "Show full timeline"}
+                </span>
                 <svg
-                  className={`w-4 h-4 ml-2 transition-transform ${showAll ? "rotate-180" : ""}`}
+                  className={`w-4 h-4 ml-2 transition-transform ${
+                    showAll ? "rotate-180" : ""
+                  }`}
                   fill="none"
                   stroke="currentColor"
                   viewBox="0 0 24 24"
                   aria-hidden="true"
                 >
-                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M19 9l-7 7-7-7" />
+                  <path
+                    strokeLinecap="round"
+                    strokeLinejoin="round"
+                    strokeWidth={2}
+                    d="M19 9l-7 7-7-7"
+                  />
                 </svg>
               </button>
             </div>
