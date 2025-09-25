@@ -37,7 +37,7 @@ export default function PastProjects() {
       title: "Wolfram Demonstrations",
       date: "April 2012",
       description:
-        "<a href='https://demonstrations.wolfram.com/authors/sam-shames' target='_blank' rel='noopener noreferrer' class='text-blue-700 hover:text-blue-900 underline font-medium bg-blue-50 px-1 py-0.5 rounded transition-colors'>Programmed and published a series of interactive web apps on materials science and manufacturing using Mathematica for the Wolfram Demonstrations Project.</a>",
+        "<a href='https://demonstrations.wolfram.com/authors/sam-shames' target='_blank' rel='noopener noreferrer' class='text-blue-700 hover:text-blue-900 underline font-medium bg-blue-50 px-1 py-0.5 rounded transition-colors'>Programmed and published six interactive web apps on materials science and manufacturing using Mathematica for the Wolfram Demonstrations Project.</a>",
     },
   ];
 
@@ -197,6 +197,11 @@ export default function PastProjects() {
             <h3 className="text-2xl font-bold text-gray-900 mb-8">
               Creative Writing
             </h3>
+            <p className="text-gray-600 mb-8">
+              I discovered a love of writing in college as a way to express
+              myself and sharpen my thinking. Here are a few pieces from the
+              many experiments with many forms and styles over the years.
+            </p>
             <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-4">
               {creativeWriting.map((piece, index) => (
                 <div

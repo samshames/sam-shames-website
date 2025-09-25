@@ -18,9 +18,29 @@ export default function HeroSection() {
                 I&apos;m an engineer, entrepreneur, and angel investor living in
                 Boston.
               </p>
-
               <p>
                 In my past, I&apos;ve been{" "}
+                <a
+                  href="#professional-bio"
+                  className="text-blue-600 hover:text-blue-800 underline"
+                >
+                  <strong>an inventor</strong>
+                </a>
+                &mdash;four patents granted,{" "}
+                <a
+                  href="#materials-projects"
+                  className="text-blue-600 hover:text-blue-800 underline"
+                >
+                  <strong>a scientist</strong>
+                </a>
+                &mdash;published undergraduate research in materials science,{" "}
+                <a
+                  href="#education-projects"
+                  className="text-blue-600 hover:text-blue-800 underline"
+                >
+                  <strong>an educator</strong>
+                </a>
+                &mdash;teaching assistant at MIT,{" "}
                 <a
                   href="#wrestling-projects"
                   className="text-blue-600 hover:text-blue-800 underline"
@@ -29,40 +49,18 @@ export default function HeroSection() {
                 </a>
                 &mdash;national champion wrestler in college,{" "}
                 <a
-                  href="#timeline-cello"
+                  href="#cello-fun-fact"
                   className="text-blue-600 hover:text-blue-800 underline"
                 >
-                  <strong>a musician</strong>
+                  <strong>and a musician</strong>
                 </a>
-                &mdash;cellist since the second grade,{" "}
-                <a
-                  href="#professional-bio"
-                  className="text-blue-600 hover:text-blue-800 underline"
-                >
-                  <strong>an inventor</strong>
-                </a>
-                &mdash;four granted patents to date, and{" "}
-                <a
-                  href="#materials-projects"
-                  className="text-blue-600 hover:text-blue-800 underline"
-                >
-                  <strong>a scientist</strong>
-                </a>
-                &mdash;published materials science research, and{" "}
-                <a
-                  href="#education-projects"
-                  className="text-blue-600 hover:text-blue-800 underline"
-                >
-                  <strong>an educator</strong>
-                </a>
-                &mdash;TA for multiple classes at MIT. I&apos;m interested in
-                science and the arts, startups and sports, technology and
-                teaching, philosophy and food, and almost everything in between.
+                &mdash;cellist since the second grade. I&apos;m interested in
+                science and the arts, startups and sports, philosophy and food,
+                and almost everything in between.
               </p>
-
               <p>
-                I made this website to share my work. Keep scrolling to learn
-                more.
+                This website is a place to share my work. Keep scrolling to
+                learn more.
               </p>
             </div>
           </div>

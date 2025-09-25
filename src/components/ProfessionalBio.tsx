@@ -11,41 +11,39 @@ export default function ProfessionalBio() {
         <div className="grid items-start gap-10 md:grid-cols-[minmax(0,2fr)_minmax(0,1fr)]">
           <div className="space-y-8 text-lg text-gray-700 leading-relaxed">
             <p>
-              I co-founded Embr Labs in 2014 as a senior at MIT and am currently
-              Chief Revenue Officer after eleven years as COO. I helped create
-              the wearable thermal wellness category with Embr Wave, the first
-              personal thermostat that lets people cool down or warm up at the
-              touch of a button.
+              I co-founded Embr Labs in 2014 and am currently Chief Revenue
+              Officer after 11 years as COO. I helped create the wearable
+              thermal wellness category with Embr Wave, the first personal
+              thermostat that cools or warms you at the touch of a button.
             </p>
 
             <p>
-              Over the past twelve years, I&apos;ve scaled from lab prototypes to
-              market leader: $50M+ in lifetime revenue, 200k+ customers across
-              100+ countries, 250k+ units shipped, 20 utility patents, and $66M
-              in venture financing. I also led the shift from one-time hardware
-              sales to a subscription model, taking Embrship hardware
-              subscription from $0 to a $4M ARR run rate in eight months.
+              Over the past twelve years, I&apos;ve helped to scale Embr Labs
+              from an MIT prototyping competition to a market leader: $50M+ in
+              lifetime revenue, 200k+ customers across 100+ countries, 250k+
+              units shipped, 21 utility patents, and $60M+ in venture financing.
+              I also led the shift from one-time sales to a subscription model,
+              taking the Embrship hardware subscription from $0 to a $4M ARR run
+              rate in eight months.
             </p>
 
             <p>
-              Recognition includes Forbes 30 Under 30, TIME Best Inventions, the
-              National Sleep Foundation&apos;s SleepTech Award, and Oprah&apos;s
-              Menopause Award.
+              I have received recognition from Forbes 30 Under 30, TIME Best
+              Inventions, the National Sleep Foundation&apos;s SleepTech Award,
+              and Oprah&apos;s Menopause Award.
             </p>
 
             <p>
-              I am active in the startup ecosystem as an angel investor,
-              advisor, and speaker. I’ve spoken at Harvard, MIT, and BU as well
-              as a number of industry conferences on topics ranging from
-              category creation, connected devices, business model and pricing
-              strategy, go-to-market execution, and supply chain &
-              manufacturing.
+              I’ve been invited to speak on category creation, connected
+              devices, business model and pricing strategy, go-to-market
+              execution, and supply chain & manufacturing at both universities
+              and industry conferences.
             </p>
             <p>
-              I am open to select speaking, advising, and independent Board
-              member opportunities. You can contact me at sam [at]
-              samshames.com.
+              I welcome inquiries about speaking, informal and formal advising,
+              and independent board member opportunities.
             </p>
+            <p>You can contact me at: sam [at] samshames.com</p>
           </div>
 
           <div className="flex justify-center md:justify-end">
